@@ -35,12 +35,16 @@
   display: flex;
   align-items: center;
 }
+.nav-menu li :nth-child(5) {
+  padding: 2px 12px;
+}
+
 .nav-menu li:nth-child(5) a {
   border: none;
   background-color: #e86f24;
-  padding: 8px 16px;
+  padding: 8px;
   border-radius: 10px;
-  color: azure;
+  color: white;
 }
 
 .nav-menu li a {
