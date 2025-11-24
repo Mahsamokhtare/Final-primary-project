@@ -35,9 +35,6 @@
   display: flex;
   align-items: center;
 }
-.nav-menu li :nth-child(5) {
-  padding: 2px 12px;
-}
 
 .nav-menu li:nth-child(5) a {
   border: none;
