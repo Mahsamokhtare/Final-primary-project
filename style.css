@@ -76,3 +76,25 @@
 .demoBtn i {
   padding-right: 8px;
 }
+@media (max-width: 480px) {
+  .hero-content-wrapper .headline {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .hero-content-wrapper.sub-headline {
+    font-size: 1.5rem;
+  }
+  .hero-content-wrapper.btn-container {
+    font-size: 1rem;
+  }
+
+  .hero-content-wrapper .btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    button {
+      width: 300px;
+    }
+  }
+}
