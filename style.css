@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #ff9966, #ff5e62);
+  height: calc(100vh - 60px);
+  padding-top: 60px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.hero-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.headline {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.sub-headline {
+  margin: 40px 0;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn-container button {
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+
+.trialBtn {
+  font-size: 20px;
+  background-color: white;
+  color: #ff5e62;
+  border: 1px solid transparent;
+}
+
+.trialBtn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.demoBtn {
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #ff5e62;
+  border: 1px solid white;
+  color: white;
+}
+
+.demoBtn:hover {
+  background-color: white;
+  border: 1px solid orange;
+  color: #ff5e62;
+}
+
+.demoBtn i {
+  padding-right: 8px;
+}
+
+/* Subscription plan section */
+
+.subscripiton-plan-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 800px;
+  background-color: white;
+  padding: 60px 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.subscripiton-plan-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+.subscripiton-plan-wrapper .title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subscripiton-plan-wrapper .subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(98, 98, 98);
+  margin-bottom: 30px;
+}
+.subscripiton-plan-wrapper .pricing-grid {
+  /* margin: 50px 0; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-card {
+  background-color: white;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  height: 450px;
+  overflow: hidden;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(92, 91, 91, 0.1);
+  margin-bottom: 50px;
+}
+
+.third {
+  border: 2px solid orange;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h2 {
+  font-weight: bold;
+  text-align: center;
+}
+.pricing-card p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: grey;
+  text-align: center;
+}
+.pricing-card .price-tag-discount {
+  color: orangered;
+}
+.price-display {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 15px 0 35px 0;
+}
+
+.currency-symbol {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+  padding-top: 15px;
+}
+
+.main-price {
+  font-size: 60px;
+  font-weight: 800;
+  color: #333;
+  line-height: 1;
+}
+
+.billing-cycle {
+  font-size: 16px; /* Smallest text */
+  font-weight: 400;
+  color: #666;
+  padding-top: 30px;
+  padding-left: 5px;
+}
+.pricing-card button {
+  background-color: rgb(0, 0, 39);
+  font-size: 18px;
+  padding: 16px 12px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+.feature-list {
+  margin-top: 25px;
+}
+.feature-list .list-item-included {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.feature-list .list-item-included i {
+  font-size: 20px;
+  color: rgb(105, 232, 160);
+  padding-right: 10px;
+}
+.footer-paragraph {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .hero-content-wrapper .headline {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .hero-content-wrapper.sub-headline {
+    font-size: 1.5rem;
+  }
+  .hero-content-wrapper.btn-container {
+    font-size: 1rem;
+  }
+
+  .hero-content-wrapper .btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    button {
+      width: 300px;
+    }
+  }
+}
