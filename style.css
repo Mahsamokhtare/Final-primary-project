@@ -228,6 +228,8 @@
   padding: 0%;
 }
 
+/* Style of Header*/
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -270,6 +272,11 @@
   padding: 8px;
   border-radius: 10px;
   color: white;
+}
+.nav-menu li:nth-child(4) a:hover {
+  background-color: #e7cdc5;
+  color: rgb(188, 27, 199);
+  cursor: pointer;
 }
 
 .nav-menu li a {
