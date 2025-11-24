@@ -83,7 +83,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 800px;
+  /* max-height: 800px; */
   background-color: white;
   padding: 60px 0;
   padding-left: 0;
@@ -202,6 +202,13 @@
 }
 
 @media (max-width: 480px) {
+  .hero {
+    height: 100svh; /* Small viewport height */
+    height: 100lvh; /* Large viewport height */
+    height: 100dvh; /* Dynamic viewport height (real) */
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
   .hero-content-wrapper .headline {
     font-size: 2rem;
     font-weight: bold;
@@ -218,8 +225,13 @@
     flex-direction: column;
     width: 100%;
     gap: 10px;
-    button {
-      width: 300px;
-    }
+  }
+  .hero-content-wrapper .btn-container button {
+    width: 100%; /* or 300px if you want fixed width */
+  }
+
+  /* Subscription section */
+  .subscripiton-plan-wrapper .pricing-grid {
+    grid-template-columns: 1fr;
   }
 }
