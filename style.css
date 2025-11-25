@@ -203,9 +203,9 @@
 
 @media (max-width: 480px) {
   .hero {
-    height: 100svh; /* Small viewport height */
-    height: 100lvh; /* Large viewport height */
-    height: 100dvh; /* Dynamic viewport height (real) */
+    height: 100svh;
+    height: 100lvh;
+    height: 100dvh;
     margin-bottom: 30px;
     padding-bottom: 30px;
   }
