@@ -126,7 +126,7 @@
   margin-bottom: 50px;
 }
 
-.third {
+.pricing-card:nth-child(3) {
   border: 2px solid orange;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
