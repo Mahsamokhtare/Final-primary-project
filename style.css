@@ -242,7 +242,7 @@
 
 /* Style of Header*/
 
-.navbar {
+/* .navbar {
   position: fixed;
   width: 100%;
   margin-right: 3px;
@@ -294,6 +294,46 @@
 .nav-menu li a {
   text-decoration: none;
   color: #000000;
+} */
+.site-header {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: pink;
+}
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  font-size: 18px;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav button {
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  border: 1px solid;
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+nav a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 /* Payment Unlimited Section Styles */
