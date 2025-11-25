@@ -337,3 +337,68 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
+
+/* Styles for the Footer */
+footer {
+  padding: 4rem 2rem;
+  background-color: rgb(31, 44, 72);
+  color: rgb(251, 251, 252);
+  border-top: 1px inset rgb(128, 128, 128);
+}
+footer a {
+  color: rgb(251, 251, 252);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: rgb(128, 128, 128);
+}
+.footer-bottom {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  border-top: 1px inset rgb(128, 128, 128);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-main {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.footer-column {
+  flex-basis: 200px;
+  flex-grow: 1;
+  text-align: center;
+}
+.footer-column1 {
+  flex-basis: 100px;
+  flex-grow: 3;
+  text-align: justify;
+}
+.studiofit-text {
+  text-align: left;
+  max-width: 200px;
+}
+.footer-heading {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.footer-link {
+  display: block;
+  width: max-content;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+.footer-social {
+  display: block;
+  width: max-content;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+.copyright {
+  padding-top: 30px;
+}
